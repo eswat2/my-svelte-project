@@ -1,15 +1,13 @@
 <script>
   import Icon from "mdi-svelte"
   import { mdiRadioboxMarked, mdiRadioboxBlank } from "@mdi/js"
-  import { namedColors, pick } from "../utils"
+  import { colorNames, namedColors, pick } from "../utils"
 
   const handleColorClick = key => {
     return () => {
       pick.set({ value: key })
     }
   }
-
-  const colors = Object.keys(namedColors)
 </script>
 
 <style>
@@ -23,7 +21,7 @@
 </style>
 
 <div class="picker">
-  {#each colors as key, i}
+  {#each colorNames as key, i}
     <div on:click={handleColorClick(key)}>
       <Icon
         color={namedColors[key]}

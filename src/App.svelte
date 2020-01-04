@@ -1,9 +1,7 @@
 <script>
   import ColorPicker from "./components/ColorPicker.svelte"
-  import { namedColors, pick } from "./utils"
-
-  const gray = namedColors["gray"]
-  const navy = namedColors["navy"]
+  import Randomizer from "./components/Randomizer.svelte"
+  import { gray, navy, pick, sample } from "./utils"
 </script>
 
 <style>
@@ -13,10 +11,15 @@
 </style>
 
 <main>
+  <Randomizer />
   <ColorPicker />
   <hr />
-  <span>
-    <strong style={`color: ${navy}`}>pick:</strong>
+  <div>
+    <strong style={`color: ${navy}; margin-right: 5px`}>pick:</strong>
     <em style={`color: ${gray}`}>{$pick.value}</em>
-  </span>
+  </div>
+  <div style="margin-top: 5px">
+    <strong style={`color: ${navy}; margin-right: 5px`}>sample:</strong>
+    <em style={`color: ${gray}`}>{$sample.values}</em>
+  </div>
 </main>
