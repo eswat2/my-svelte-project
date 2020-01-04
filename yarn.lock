@@ -28,10 +28,10 @@
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-0.5.0.tgz#b21510597fd601e5d7c95008b76bf0d254ebfd31"
   integrity sha512-oZLYFEAzUKyi3SKnXvj32ZCEGH6RDnao7COuCVhDydMS9NrCSVXhM79VaKyP5+Zc33m0QXEd2DN3UkU7OsHcfw==
 
-"@rollup/plugin-commonjs@11.0.0":
-  version "11.0.0"
-  resolved "https://registry.yarnpkg.com/@rollup/plugin-commonjs/-/plugin-commonjs-11.0.0.tgz#a6675e56094ac9c797c19a3986378289396a9dd5"
-  integrity sha512-jnm//T5ZWOZ6zmJ61fReSCBOif+Ax8dHVoVggA+d2NA7T4qCWgQ3KYr+zN2faGEYLpe1wa03IzvhR+sqVLxUWg==
+"@rollup/plugin-commonjs@11.0.1":
+  version "11.0.1"
+  resolved "https://registry.yarnpkg.com/@rollup/plugin-commonjs/-/plugin-commonjs-11.0.1.tgz#6056a6757286901cc6c1599123e6680a78cad6c2"
+  integrity sha512-SaVUoaLDg3KnIXC5IBNIspr1APTYDzk05VaYcI6qz+0XX3ZlSCwAkfAhNSOxfd5GAdcm/63Noi4TowOY9MpcDg==
   dependencies:
     "@rollup/pluginutils" "^3.0.0"
     estree-walker "^0.6.1"
@@ -39,10 +39,10 @@
     magic-string "^0.25.2"
     resolve "^1.11.0"
 
-"@rollup/plugin-node-resolve@6.0.0":
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/@rollup/plugin-node-resolve/-/plugin-node-resolve-6.0.0.tgz#f351e29b45c007c17df4e28a0efd0d1f5662f59b"
-  integrity sha512-GqWz1CfXOsqpeVMcoM315+O7zMxpRsmhWyhJoxLFHVSp9S64/u02i7len/FnbTNbmgYs+sZyilasijH8UiuboQ==
+"@rollup/plugin-node-resolve@6.1.0":
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/@rollup/plugin-node-resolve/-/plugin-node-resolve-6.1.0.tgz#0d2909f4bf606ae34d43a9bc8be06a9b0c850cf0"
+  integrity sha512-Cv7PDIvxdE40SWilY5WgZpqfIUEaDxFxs89zCAHjqyRwlTSuql4M5hjIuc5QYJkOH0/vyiyNXKD72O+LhRipGA==
   dependencies:
     "@rollup/pluginutils" "^3.0.0"
     "@types/resolve" "0.0.8"
@@ -935,10 +935,10 @@ rollup-pluginutils@^2.3.3, rollup-pluginutils@^2.8.1:
   dependencies:
     estree-walker "^0.6.1"
 
-rollup@1.27.14:
-  version "1.27.14"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-1.27.14.tgz#940718d5eec1a6887e399aa0089944bae5c4f377"
-  integrity sha512-DuDjEyn8Y79ALYXMt+nH/EI58L5pEw5HU9K38xXdRnxQhvzUTI/nxAawhkAHUQeudANQ//8iyrhVRHJBuR6DSQ==
+rollup@1.28.0:
+  version "1.28.0"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-1.28.0.tgz#d576a6a0fd7490b2e1f531ef8b411795fb80da87"
+  integrity sha512-v2J/DmQi9+Nf6frGqzwZRvbiuTTrqH0yzoUF4Eybf8sONT4UpLZzJYnYzW96Zm9X1+4SJmijfnFBWCzHDAXYnQ==
   dependencies:
     "@types/estree" "*"
     "@types/node" "*"
