@@ -5,6 +5,7 @@
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "start": "sirv public",
+    "predeploy": "yarn build",
     "deploy": "cd public; now deploy --name my-svelte-project",
     "open": "open https://my-svelte-project.eswat2.now.sh"
   },
