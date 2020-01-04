@@ -1,6 +1,6 @@
 <script>
-  import Icon from "svelte-awesome"
-  import { circle, circleO } from "svelte-awesome/icons"
+  import Icon from "mdi-svelte"
+  import { mdiRadioboxMarked, mdiRadioboxBlank } from "@mdi/js"
   import { namedColors, pick } from "../utils"
 
   const handleColorClick = key => {
@@ -18,19 +18,14 @@
     flex-direction: row;
     align-items: center;
   }
-
-  .chip {
-    margin: 2px;
-  }
 </style>
 
 <div class="picker">
   {#each colors as key, i}
-    <div class="chip" on:click={handleColorClick(key)}>
+    <div on:click={handleColorClick(key)}>
       <Icon
-        style={`fill: ${namedColors[key]}`}
-        data={$pick.value === key ? circle : circleO}
-        scale={$pick.value === key ? 1.4 : 1} />
+        color={namedColors[key]}
+        path={$pick.value === key ? mdiRadioboxMarked : mdiRadioboxBlank} />
     </div>
   {/each}
 </div>
