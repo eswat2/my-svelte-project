@@ -1,6 +1,7 @@
 import { writable } from "svelte/store"
 
-const pick = writable({ value: "red" })
+const clicks = writable(0)
+const pick = writable({ value: "bada55" })
 const sample = writable({ values: [] })
 
-export { pick, sample }
+export { clicks, pick, sample }
