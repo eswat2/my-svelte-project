@@ -2,6 +2,11 @@
   import ColorPicker from "./components/ColorPicker.svelte"
   import Randomizer from "./components/Randomizer.svelte"
   import { gray, navy, pick, sample } from "./utils"
+
+  const styles = {
+    label: `color: ${navy}; margin-right: 5px;`,
+    value: `color: ${gray};`
+  }
 </script>
 
 <style>
@@ -26,6 +31,9 @@
   main {
     padding: 1em;
   }
+  .row {
+    margin-top: 5px;
+  }
 </style>
 
 <main>
@@ -33,11 +41,11 @@
   <ColorPicker />
   <hr />
   <div>
-    <strong style={`color: ${navy}; margin-right: 5px`}>color:</strong>
-    <em style={`color: ${gray}`}>{$pick.value}</em>
+    <strong style={styles.label}>color:</strong>
+    <em style={styles.value}>{$pick.value}</em>
   </div>
-  <div style="margin-top: 5px">
-    <strong style={`color: ${navy}; margin-right: 5px`}>sample:</strong>
-    <em style={`color: ${gray}`}>{$sample.values}</em>
+  <div class="row">
+    <strong style={styles.label}>sample:</strong>
+    <em style={styles.value}>{$sample.values}</em>
   </div>
 </main>

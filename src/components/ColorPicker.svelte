@@ -22,7 +22,7 @@
 
 <div class="picker">
   {#each colorNames as key, i}
-    <div on:click={handleColorClick(key)}>
+    <div aria-label={key} title={key} on:click={handleColorClick(key)}>
       <Icon
         color={namedColors[key]}
         path={$pick.value === key ? mdiRadioboxMarked : mdiRadioboxBlank} />
