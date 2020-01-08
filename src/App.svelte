@@ -1,12 +1,8 @@
 <script>
   import ColorPicker from "./components/ColorPicker.svelte"
+  import Funnel from "./components/Funnel.svelte"
   import Randomizer from "./components/Randomizer.svelte"
-  import { gray, navy, pick, sample } from "./utils"
-
-  const styles = {
-    label: `color: ${navy};`,
-    value: `color: ${gray};`
-  }
+  import Values from "./components/Values.svelte"
 </script>
 
 <style>
@@ -32,30 +28,12 @@
     font-family: "Roboto", Helvetica, sans-serif;
     padding: 1em;
   }
-  .row {
-    display: flex;
-    align-items: center;
-    margin-bottom: 5px;
-  }
-  .label {
-    font-weight: bold;
-    margin-right: 10px;
-  }
-  .value {
-    font-style: italic;
-  }
 </style>
 
 <main>
+  <Funnel />
   <Randomizer />
   <ColorPicker />
   <hr />
-  <div class="row">
-    <span class="label" style={styles.label}>color:</span>
-    <span class="value" style={styles.value}>{$pick.value}</span>
-  </div>
-  <div class="row">
-    <span class="label" style={styles.label}>sample:</span>
-    <span class="value" style={styles.value}>{$sample.values}</span>
-  </div>
+  <Values />
 </main>
