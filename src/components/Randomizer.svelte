@@ -1,6 +1,7 @@
 <script>
-  import Icon from "mdi-svelte"
-  import { mdiClose, mdiRefresh, mdiChevronDoubleLeft } from "@mdi/js"
+  import ChevronDoubleLeft from "./icons/ChevronDoubleLeft.svelte"
+  import Close from "./icons/Close.svelte"
+  import Refresh from "./icons/Refresh.svelte"
   import { blue, red, navy, clicks, sample, funnelDefs } from "../utils"
 
   const styles = {
@@ -36,23 +37,21 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-top: 10px;
     margin-bottom: 10px;
   }
   .labels {
     display: flex;
     flex-direction: row;
+    align-items: center;
   }
-  .myRefreshBtn {
+  button {
+    display: flex;
+    align-content: center;
     border-radius: 5px;
-    margin-bottom: 0px;
-    color: #ffffff;
-  }
-  .myResetBtn {
-    border-radius: 5px;
-    margin-left: 5px;
-    margin-right: 10px;
-    margin-bottom: 0px;
-    color: #ffffff;
+    padding: 5px;
+    margin: 0px;
+    margin-right: 5px;
   }
 </style>
 
@@ -60,21 +59,19 @@
   <button
     aria-label="Refresh"
     title="Refresh"
-    class="myRefreshBtn"
     style={styles.refresh}
     on:click={handleRefreshClick}>
-    <Icon path={mdiRefresh} />
+    <Refresh />
   </button>
   <button
     aria-label="Reset"
     title="Reset"
-    class="myResetBtn"
     style={styles.reset}
     on:click={handleResetClick}>
-    <Icon path={mdiClose} />
+    <Close />
   </button>
   <div class="labels" style={styles.span}>
-    <Icon path={mdiChevronDoubleLeft} size={1.2} />
+    <ChevronDoubleLeft hex={navy} size={28} />
     <span class="info">
       click a button...
       <sup>{$clicks}</sup>

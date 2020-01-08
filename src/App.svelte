@@ -4,7 +4,7 @@
   import { gray, navy, pick, sample } from "./utils"
 
   const styles = {
-    label: `color: ${navy}; margin-right: 5px;`,
+    label: `color: ${navy};`,
     value: `color: ${gray};`
   }
 </script>
@@ -29,10 +29,20 @@
     --clrs-silver: #dddddd;
   }
   main {
+    font-family: "Roboto", Helvetica, sans-serif;
     padding: 1em;
   }
   .row {
-    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  .label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  .value {
+    font-style: italic;
   }
 </style>
 
@@ -40,12 +50,12 @@
   <Randomizer />
   <ColorPicker />
   <hr />
-  <div>
-    <strong style={styles.label}>color:</strong>
-    <em style={styles.value}>{$pick.value}</em>
+  <div class="row">
+    <span class="label" style={styles.label}>color:</span>
+    <span class="value" style={styles.value}>{$pick.value}</span>
   </div>
   <div class="row">
-    <strong style={styles.label}>sample:</strong>
-    <em style={styles.value}>{$sample.values}</em>
+    <span class="label" style={styles.label}>sample:</span>
+    <span class="value" style={styles.value}>{$sample.values}</span>
   </div>
 </main>

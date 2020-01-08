@@ -1,6 +1,5 @@
 <script>
-  import Icon from "mdi-svelte"
-  import { mdiRadioboxMarked, mdiRadioboxBlank } from "@mdi/js"
+  import Radio from "./icons/Radio.svelte"
   import { colorNames, namedColors, pick } from "../utils"
 
   const handleColorClick = key => {
@@ -23,9 +22,7 @@
 <div class="picker">
   {#each colorNames as key, i}
     <div aria-label={key} title={key} on:click={handleColorClick(key)}>
-      <Icon
-        color={namedColors[key]}
-        path={$pick.value === key ? mdiRadioboxMarked : mdiRadioboxBlank} />
+      <Radio hex={namedColors[key]} selected={$pick.value === key} />
     </div>
   {/each}
 </div>
