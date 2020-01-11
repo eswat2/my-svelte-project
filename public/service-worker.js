@@ -1,13 +1,15 @@
 var cacheName = "my-s4e-project-cache-" + Date.now()
 var filesToCache = [
   "/",
-  "/index.html",
-  "/global.css",
-  "/build/bundle.js",
-  "/build/bundle.css",
   "/assets/svelte-logo-192x192.png",
   "/assets/svelte-logo-512x512.png",
-  "favicon.png"
+  "/build/bundle.css",
+  "/build/bundle.js",
+  "/favicon.png",
+  "/global.css",
+  "/index.html",
+  "/manifest.json",
+  "/service-worker.js"
 ]
 self.addEventListener("install", function(e) {
   e.waitUntil(
