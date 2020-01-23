@@ -4,7 +4,7 @@
 
   const handleColorClick = key => {
     return () => {
-      pick.set({ value: key })
+      pick.set(key)
     }
   }
 </script>
@@ -22,7 +22,7 @@
 <div class="picker">
   {#each colorNames as key, i}
     <div aria-label={key} title={key} on:click={handleColorClick(key)}>
-      <Radio hex={namedColors[key]} selected={$pick.value === key} />
+      <Radio hex={namedColors[key]} selected={$pick === key} />
     </div>
   {/each}
 </div>

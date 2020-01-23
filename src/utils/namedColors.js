@@ -1,6 +1,5 @@
 /* NOTE: colors from clrs.cc - A nicer color palette for the web...
  */
-const bada55 = "#bada55"
 const navy = "#001f3f"
 const blue = "#0074d9"
 const aqua = "#7fdbff"
@@ -17,6 +16,11 @@ const purple = "#b10dc9"
 const black = "#111111"
 const gray = "#aaaaaa"
 const silver = "#dddddd"
+
+const bada55 = "#bada55"
+const slate = "#708090"
+const slate4 = "#4e5964"
+const white = "#ffffff"
 
 const namedColors = {
   bada55,
@@ -41,7 +45,6 @@ const namedColors = {
 const colorNames = Object.keys(namedColors)
 
 export {
-  bada55,
   navy,
   blue,
   aqua,
@@ -58,6 +61,10 @@ export {
   black,
   gray,
   silver,
+  bada55,
+  slate,
+  slate4,
+  white,
   namedColors,
   colorNames
 }

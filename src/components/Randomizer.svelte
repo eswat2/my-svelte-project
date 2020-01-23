@@ -1,12 +1,6 @@
 <script>
   import { ChevronDoubleLeft, Close, Refresh } from "s4e-icons"
-  import { blue, red, navy, clicks, sample, funnelDefs } from "../utils"
-
-  const styles = {
-    refresh: `background-color: ${blue};`,
-    reset: `background-color: ${red};`,
-    span: `color: ${navy};`
-  }
+  import { clicks, sample, funnelDefs } from "../utils"
 
   const randomInt = () => {
     return Math.floor(Math.random() * 100)
@@ -39,11 +33,14 @@
     margin-bottom: 10px;
   }
   .labels {
+    color: var(--clrs-navy);
+    fill: var(--clrs-navy);
     display: flex;
     flex-direction: row;
     align-items: center;
   }
   button {
+    fill: var(--clrs-white);
     display: flex;
     align-content: center;
     border-radius: 5px;
@@ -51,25 +48,31 @@
     margin: 0px;
     margin-right: 5px;
   }
+  .refresh {
+    background-color: var(--clrs-blue);
+  }
+  .reset {
+    background-color: var(--clrs-red);
+  }
 </style>
 
 <div class="randomizer">
   <button
+    class="refresh"
     aria-label="Refresh"
     title="Refresh"
-    style={styles.refresh}
     on:click={handleRefreshClick}>
     <Refresh />
   </button>
   <button
+    class="reset"
     aria-label="Reset"
     title="Reset"
-    style={styles.reset}
     on:click={handleResetClick}>
     <Close />
   </button>
-  <div class="labels" style={styles.span}>
-    <ChevronDoubleLeft hex={navy} size={28} />
+  <div class="labels">
+    <ChevronDoubleLeft size={28} />
     <span class="info">
       click a button...
       <sup>{$clicks}</sup>
