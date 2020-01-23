@@ -1,7 +1,5 @@
 <script>
-  import ChevronDoubleLeft from "./icons/ChevronDoubleLeft.svelte"
-  import Close from "./icons/Close.svelte"
-  import Refresh from "./icons/Refresh.svelte"
+  import { ChevronDoubleLeft, Close, Refresh } from "s4e-icons"
   import { blue, red, navy, clicks, sample, funnelDefs } from "../utils"
 
   const styles = {

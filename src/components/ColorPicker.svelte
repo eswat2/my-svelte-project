@@ -1,5 +1,5 @@
 <script>
-  import Radio from "./icons/Radio.svelte"
+  import { Radio } from "s4e-icons"
   import { colorNames, namedColors, pick } from "../utils"
 
   const handleColorClick = key => {
