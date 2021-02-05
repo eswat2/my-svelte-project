@@ -510,10 +510,10 @@ rollup@2.38.5:
   optionalDependencies:
     fsevents "~2.3.1"
 
-s4e-icons@0.0.171:
-  version "0.0.171"
-  resolved "https://registry.yarnpkg.com/s4e-icons/-/s4e-icons-0.0.171.tgz#22bbc51af395a83e89d6b383a7416a5e9a4cb4e4"
-  integrity sha512-yKTBQO82LezEsPFhQe1MwusCxzAY56ciBmPQ5nSG833Lvyhk8Q3ByzlSquLrAGyCBpQWRmfX/OriqBYe2gasXA==
+s4e-icons@0.0.172:
+  version "0.0.172"
+  resolved "https://registry.yarnpkg.com/s4e-icons/-/s4e-icons-0.0.172.tgz#462671256c94a140a8f166d5cccb8538f08d9f45"
+  integrity sha512-NYWm34OGPCnGfAEeGH863h8dBY6o/8cHN1R6JtmdJ0fEWsi7ZTJQTq7F+ydOezxx7fgNjyPYlxhDwozA7PXTNg==
 
 sade@^1.6.0:
   version "1.7.4"
