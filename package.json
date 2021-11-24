@@ -7,8 +7,8 @@
     "start": "sirv public",
     "predeploy": "yarn build",
     "cc": "prettier --check src",
-    "deploy": "cd public; now --prod",
-    "open": "open https://my-svelte-project.eswat2.now.sh"
+    "deploy": "cd public; vc --prod",
+    "open": "open https://my-svelte-project-nine-gamma.vercel.app"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "21.0.1",
