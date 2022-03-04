@@ -14,11 +14,11 @@
     "@rollup/plugin-commonjs": "21.0.2",
     "@rollup/plugin-node-resolve": "13.1.3",
     "prettier": "2.5.1",
-    "rollup": "2.69.0",
+    "rollup": "2.69.1",
     "rollup-plugin-livereload": "2.0.5",
     "rollup-plugin-svelte": "7.1.0",
     "rollup-plugin-terser": "7.0.2",
-    "s4e-icons": "0.0.290",
+    "s4e-icons": "0.0.291",
     "svelte": "3.46.4"
   },
   "dependencies": {
