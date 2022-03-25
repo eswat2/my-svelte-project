@@ -439,10 +439,10 @@ picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.2:
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.3.1.tgz#3ba3833733646d9d3e4995946c1365a67fb07a42"
   integrity sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==
 
-prettier@2.6.0:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.6.0.tgz#12f8f504c4d8ddb76475f441337542fa799207d4"
-  integrity sha512-m2FgJibYrBGGgQXNzfd0PuDGShJgRavjUoRCw1mZERIWVSXF0iLzLm+aOqTAbLnC3n6JzUhAA8uZnFVghHJ86A==
+prettier@2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.6.1.tgz#d472797e0d7461605c1609808e27b80c0f9cfe17"
+  integrity sha512-8UVbTBYGwN37Bs9LERmxCPjdvPxlEowx2urIL6urHzdb3SDq4B/Z6xLFCblrSnE4iKWcS6ziJ3aOYrc1kz/E2A==
 
 randombytes@^2.1.0:
   version "2.1.0"
@@ -511,10 +511,10 @@ rollup@2.70.1:
   optionalDependencies:
     fsevents "~2.3.2"
 
-s4e-icons@0.0.296:
-  version "0.0.296"
-  resolved "https://registry.yarnpkg.com/s4e-icons/-/s4e-icons-0.0.296.tgz#c240eb80c53554e5b4783176432ce41abda82326"
-  integrity sha512-23gCyjaatNeC5KNZHim2vTAV/f4znQeanbP1t6hAoKLudAQL1cdU52w6DuW6vKbtFAN1n9QZKcziFWwm5r4Abg==
+s4e-icons@0.0.297:
+  version "0.0.297"
+  resolved "https://registry.yarnpkg.com/s4e-icons/-/s4e-icons-0.0.297.tgz#ff8653cc445ad96083b2ecd71b56a43d81320fd3"
+  integrity sha512-VigImW3GZKv6FAPhx56oACeQNR8027/SGVpS/JUbBAjd7f3J6wxpETE0kEl6fqO+TjhBoM4jt22zjg3WXFPoeA==
 
 sade@^1.6.0:
   version "1.8.1"
