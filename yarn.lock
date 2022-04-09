@@ -15,9 +15,9 @@
   integrity sha512-hsEnFemeiW4D08A5gUAZxLBTXpZ39P+a+DGDsHw1yxqyQ/jzFEnxf5uTEGp+3bzAbNOxU1paTgYS4ECU/IgfDw==
 
 "@babel/highlight@^7.16.7":
-  version "7.16.10"
-  resolved "https://registry.yarnpkg.com/@babel/highlight/-/highlight-7.16.10.tgz#744f2eb81579d6eea753c227b0f570ad785aba88"
-  integrity sha512-5FnTQLSLswEj6IkgVw5KusNUUFY9ZGqe/TRFnP/BKYHYgfh7tc+C7mwiy95/yNP7Dh9x580Vv8r7u7ZfTBFxdw==
+  version "7.17.9"
+  resolved "https://registry.yarnpkg.com/@babel/highlight/-/highlight-7.17.9.tgz#61b2ee7f32ea0454612def4fccdae0de232b73e3"
+  integrity sha512-J9PfEKCbFIv2X5bjTMiZu6Vf341N05QIY+d6FvVKynkG1S7G0j3I0QoRtWIrXhZ+/Nlb5Q0MzqL7TokEJ5BNHg==
   dependencies:
     "@babel/helper-validator-identifier" "^7.16.7"
     chalk "^2.0.0"
@@ -511,10 +511,10 @@ rollup@2.70.1:
   optionalDependencies:
     fsevents "~2.3.2"
 
-s4e-icons@0.0.300:
-  version "0.0.300"
-  resolved "https://registry.yarnpkg.com/s4e-icons/-/s4e-icons-0.0.300.tgz#87c9a93f894b04924bc92b8c87c08e71944be13a"
-  integrity sha512-E5NrnWDnc+HBYoK0d7OyUNY85mcjbMxaKFGyV2l8OHCaUl5BZxQsuJL0aFsWwfItdGTk4QHwtc/wY+P4PsyLpg==
+s4e-icons@0.0.301:
+  version "0.0.301"
+  resolved "https://registry.yarnpkg.com/s4e-icons/-/s4e-icons-0.0.301.tgz#b69eb0ecc0b9ad40c66225ca4a13584be445cea6"
+  integrity sha512-uxosV9TNRyLciSRG8Lxtfu3a1RPhEkSfrboS5T8l1WBVbKDc4q3+BtzlY9s0lCBgqcr9ATmNWQEOgaYldVYgrQ==
 
 sade@^1.6.0:
   version "1.8.1"
@@ -605,10 +605,10 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
-svelte@3.46.6:
-  version "3.46.6"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.46.6.tgz#23046a361ba5f8bafcc9cf9f6fca6d011fb005a7"
-  integrity sha512-o9nNft/OzCz/9kJpmWa1S52GAM+huCjPIsNWydYmgei74ZWlOA9/hN9+Z12INdklghu31seEXZMRHhS1+8DETw==
+svelte@3.47.0:
+  version "3.47.0"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.47.0.tgz#ba46fe4aea99fc650d6939c215cd4694f5325a19"
+  integrity sha512-4JaJp3HEoTCGARRWZQIZDUanhYv0iyoHikklVHVLH9xFE9db22g4TDv7CPeNA8HD1JgjXI1vlhR1JZvvhaTu2Q==
 
 terser@^5.0.0:
   version "5.12.1"
