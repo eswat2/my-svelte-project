@@ -521,17 +521,17 @@ rollup-pluginutils@^2.8.2:
   dependencies:
     estree-walker "^0.6.1"
 
-rollup@2.74.0:
-  version "2.74.0"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.74.0.tgz#4f460e7979b8ed1f3aa0489059480a504de28b4a"
-  integrity sha512-RRwXTX5+ObPJhcMV6zP3RdHvy90/lBOUfbzL7IKkFjMJGAqeBGZiv9nZWm/DoTESaTE3GBkkzbU9QVN2AuCkjw==
+rollup@2.74.1:
+  version "2.74.1"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.74.1.tgz#4fba0ff1c312cc4ee82691b154eee69a0d01929f"
+  integrity sha512-K2zW7kV8Voua5eGkbnBtWYfMIhYhT9Pel2uhBk2WO5eMee161nPze/XRfvEQPFYz7KgrCCnmh2Wy0AMFLGGmMA==
   optionalDependencies:
     fsevents "~2.3.2"
 
-s4e-icons@0.0.309:
-  version "0.0.309"
-  resolved "https://registry.yarnpkg.com/s4e-icons/-/s4e-icons-0.0.309.tgz#470b861623b9bdc71f5540c2e4d9c39a42f63b67"
-  integrity sha512-selXlAtKqBNmcTRLpmjPxCFC+e7n9ZuWpbh5KYbigtGY6R2IJB2Lbqcm9mXNzD0uKFn806gx624oxIZ6aT3A0w==
+s4e-icons@0.0.310:
+  version "0.0.310"
+  resolved "https://registry.yarnpkg.com/s4e-icons/-/s4e-icons-0.0.310.tgz#3673b77644bac9707932ab554ce45f6c69a4dea1"
+  integrity sha512-5/iTS1KvPgRDszXM4JdjC/zuJJlPPJxP4Go8SQvTBfOA4Zb4if6dgeUIWB7H5LQbJ1Njagh+JXGPlJ5Te1yCug==
 
 sade@^1.6.0:
   version "1.8.1"
