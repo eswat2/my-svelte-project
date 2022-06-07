@@ -113,9 +113,9 @@
   integrity sha512-EYNwp3bU+98cpU4lAWYYL7Zz+2gryWH1qbdDTidVd6hkiR6weksdbMadyXKXNPEkQFhXM+hVO9ZygomHXp+AIw==
 
 "@types/node@*":
-  version "17.0.38"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.38.tgz#f8bb07c371ccb1903f3752872c89f44006132947"
-  integrity sha512-5jY9RhV7c0Z4Jy09G+NIDTsCZ5G0L5n+Z+p+Y7t5VJHM30bgwzSjVtlcBxqAj+6L/swIlvtOSzr8rBk/aNyV2g==
+  version "17.0.40"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.40.tgz#76ee88ae03650de8064a6cf75b8d95f9f4a16090"
+  integrity sha512-UXdBxNGqTMtm7hCwh9HtncFVLrXoqA3oJW30j6XWp5BH/wu3mVeaxo7cq5benFdBw34HB3XDT2TRPI7rXZ+mDg==
 
 "@types/resolve@1.17.1":
   version "1.17.1"
@@ -508,7 +508,7 @@ readdirp@~3.6.0:
 require-relative@^0.8.7:
   version "0.8.7"
   resolved "https://registry.yarnpkg.com/require-relative/-/require-relative-0.8.7.tgz#7999539fc9e047a37928fa196f8e1563dabd36de"
-  integrity sha1-eZlTn8ngR6N5KPoZb44VY9q9Nt4=
+  integrity sha512-AKGr4qvHiryxRb19m3PsLRGuKVAbJLUD7E6eOaHkfKhwc+vSgVOCY5xNvm9EkolBKTOf0GrQAZKLimOCz81Khg==
 
 resolve@^1.17.0, resolve@^1.19.0:
   version "1.22.0"
@@ -551,17 +551,17 @@ rollup-pluginutils@^2.8.2:
   dependencies:
     estree-walker "^0.6.1"
 
-rollup@2.75.5:
-  version "2.75.5"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.75.5.tgz#7985c1962483235dd07966f09fdad5c5f89f16d0"
-  integrity sha512-JzNlJZDison3o2mOxVmb44Oz7t74EfSd1SQrplQk0wSaXV7uLQXtVdHbxlcT3w+8tZ1TL4r/eLfc7nAbz38BBA==
+rollup@2.75.6:
+  version "2.75.6"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.75.6.tgz#ac4dc8600f95942a0180f61c7c9d6200e374b439"
+  integrity sha512-OEf0TgpC9vU6WGROJIk1JA3LR5vk/yvqlzxqdrE2CzzXnqKXNzbAwlWUXis8RS3ZPe7LAq+YUxsRa0l3r27MLA==
   optionalDependencies:
     fsevents "~2.3.2"
 
-s4e-icons@0.0.311:
-  version "0.0.311"
-  resolved "https://registry.yarnpkg.com/s4e-icons/-/s4e-icons-0.0.311.tgz#db938d435ba8207262d243324f64fc96e931b42b"
-  integrity sha512-Qd7Yqe18LZbhqatnecf/fWBQ/HPHrLSgtJg0+ByEXQeDUD9EH8oY9pa2O5nQRgWe7eYefNJJ6Tat1KaFR0vojw==
+s4e-icons@0.0.312:
+  version "0.0.312"
+  resolved "https://registry.yarnpkg.com/s4e-icons/-/s4e-icons-0.0.312.tgz#ac49fd0a6330cfdaa2f10086c2e2b4214146c188"
+  integrity sha512-59rHEFM2PZLAsPI2lNVEEGhMNOwGoHFZ1upavS6mdwBnLvl57Z0Oaot/iXVdrps7WbPKNeDZwvdLL4nHlqAD2A==
 
 sade@^1.6.0:
   version "1.8.1"
