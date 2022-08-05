@@ -11,7 +11,7 @@
     "open": "open https://my-svelte-project-nine-gamma.vercel.app"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "22.0.1",
+    "@rollup/plugin-commonjs": "22.0.2",
     "@rollup/plugin-node-resolve": "13.3.0",
     "prettier": "2.7.1",
     "rollup": "2.77.2",
