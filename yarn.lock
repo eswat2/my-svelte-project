@@ -81,10 +81,10 @@
     magic-string "^0.25.7"
     resolve "^1.17.0"
 
-"@rollup/plugin-node-resolve@13.3.0":
-  version "13.3.0"
-  resolved "https://registry.yarnpkg.com/@rollup/plugin-node-resolve/-/plugin-node-resolve-13.3.0.tgz#da1c5c5ce8316cef96a2f823d111c1e4e498801c"
-  integrity sha512-Lus8rbUo1eEcnS4yTFKLZrVumLPY+YayBdWXgFSHYhTT2iJbMhoaaBL3xl5NCdeRytErGr8tZ0L71BMRmnlwSw==
+"@rollup/plugin-node-resolve@14.0.0":
+  version "14.0.0"
+  resolved "https://registry.yarnpkg.com/@rollup/plugin-node-resolve/-/plugin-node-resolve-14.0.0.tgz#373c1a00e7fb3e2a7d2ee109c5b03a5e608f3b8f"
+  integrity sha512-XkWfpgp/zGiFu8LS+JAiQeZN4oYYA4/ViFJiZhwQegTg5ZbzKTvM9YyKXVBNnmZ8Et76WnlVgwRUu1rhKF4ayw==
   dependencies:
     "@rollup/pluginutils" "^3.1.0"
     "@types/resolve" "1.17.1"
@@ -113,9 +113,9 @@
   integrity sha512-EYNwp3bU+98cpU4lAWYYL7Zz+2gryWH1qbdDTidVd6hkiR6weksdbMadyXKXNPEkQFhXM+hVO9ZygomHXp+AIw==
 
 "@types/node@*":
-  version "18.7.14"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.7.14.tgz#0fe081752a3333392d00586d815485a17c2cf3c9"
-  integrity sha512-6bbDaETVi8oyIARulOE9qF1/Qdi/23z6emrUh0fNJRUmjznqrixD4MpGDdgOFk5Xb0m2H6Xu42JGdvAxaJR/wA==
+  version "18.7.15"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.7.15.tgz#20ae1ec80c57ee844b469f968a1cd511d4088b29"
+  integrity sha512-XnjpaI8Bgc3eBag2Aw4t2Uj/49lLBSStHWfqKvIuXD7FIrZyMLWp8KuAFHAqxMZYTF9l08N1ctUn9YNybZJVmQ==
 
 "@types/resolve@1.17.1":
   version "1.17.1"
@@ -558,10 +558,10 @@ rollup@2.79.0:
   optionalDependencies:
     fsevents "~2.3.2"
 
-s4e-icons@0.0.325:
-  version "0.0.325"
-  resolved "https://registry.yarnpkg.com/s4e-icons/-/s4e-icons-0.0.325.tgz#4fa6a4c536057036c75699f24b7a5238ec7d969b"
-  integrity sha512-Xuv4YLaM9GgD0P0IWbgDCLlXxen9O2azuAEk4XYGwKRstfhhVfyHPxBLnHlu3yI49VEHojRWOfvv5qmyP6QrZw==
+s4e-icons@0.0.326:
+  version "0.0.326"
+  resolved "https://registry.yarnpkg.com/s4e-icons/-/s4e-icons-0.0.326.tgz#c9debb3bbcb8c0859f40eddf3e9da04665d67725"
+  integrity sha512-EXql4gBNra5UwiSa739Sr3FPas4Ak2ERPR2SX0ja0xT02ODGFUwPbUq0ySPD2um7NdzAueXUe/vKsPWhwMfcvA==
 
 sade@^1.6.0:
   version "1.8.1"
